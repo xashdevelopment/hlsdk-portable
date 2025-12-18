@@ -1,15 +1,15 @@
-# Half-Life SDK for GoldSource and Xash3D [![Build Status](https://github.com/FWGS/hlsdk-portable/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/FWGS/hlsdk-portable/actions/workflows/build.yml) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/FWGS/hlsdk-portable?svg=true)](https://ci.appveyor.com/project/a1batross/hlsdk-portable)
+# Half-Life SDK for GoldSource and Xash3D [![Build Status](https://github.com/xashdevelopment/hlsdk-portable/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/xashdevelopment/hlsdk-portable/actions/workflows/build.yml) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/FWGS/hlsdk-portable?svg=true)](https://ci.appveyor.com/project/a1batross/hlsdk-portable)
 
 Half-Life SDK for GoldSource & Xash3D with some bugfixes.
 
 <details><summary>Changelog</summary>
 <p>
 
-- Fixed an occasional bug when houndeyes stuck unable to do anything. Technical detail: now monster's `Activity` is set before the call to `SetYawSpeed`. [Patch](https://github.com/FWGS/hlsdk-portable/commit/467899b99aa225a95d90222137f18c141c929c86)
-- Monsters now play idle sounds as it's supposed by the code. Technical detail: the problem was a check for a wrong variable. [Patch](https://github.com/FWGS/hlsdk-portable/commit/9fc712da019a1ca646171e912209a993e7c43976)
-- Fixed a bug that caused talk monsters (scientists and security guards) to face a wrong direction during scripted sequence sometimes. [Patch](https://github.com/FWGS/hlsdk-portable/commit/3e2808de62e479e83068c075cb88b4f177f9acc7)
-- Fixed squad member removal. This bug affected houndeye attacks as their attack depends on percieved number of squad members. [Patch](https://github.com/FWGS/hlsdk-portable/commit/b4502f71336a08f3f2c72b7b061b2838a149a11b)
-- Scientists now react to smells. [Patch](https://github.com/FWGS/hlsdk-portable/commit/2de4e7ab003d5b1674d12525f5aefb1e57a49fa3)
+- Fixed an occasional bug when houndeyes stuck unable to do anything. Technical detail: now monster's `Activity` is set before the call to `SetYawSpeed`. [Patch](https://github.com/xashdevelopment/hlsdk-portable/commit/467899b99aa225a95d90222137f18c141c929c86)
+- Monsters now play idle sounds as it's supposed by the code. Technical detail: the problem was a check for a wrong variable. [Patch](https://github.com/xashdevelopment/hlsdk-portable/commit/9fc712da019a1ca646171e912209a993e7c43976)
+- Fixed a bug that caused talk monsters (scientists and security guards) to face a wrong direction during scripted sequence sometimes. [Patch](https://github.com/xashdevelopment/hlsdk-portable/commit/3e2808de62e479e83068c075cb88b4f177f9acc7)
+- Fixed squad member removal. This bug affected houndeye attacks as their attack depends on percieved number of squad members. [Patch](https://github.com/xashdevelopment/hlsdk-portable/commit/b4502f71336a08f3f2c72b7b061b2838a149a11b)
+- Scientists now react to smells. [Patch](https://github.com/xashdevelopment/hlsdk-portable/commit/2de4e7ab003d5b1674d12525f5aefb1e57a49fa3)
 - Tau-cannon (gauss) plays idle animations.
 - Tau-cannon (gauss) beam color depends on the charge as it was before the prediction code was introduced in Half-Life. [Patch](https://github.com/FWGS/hlsdk-portable/commit/0a29ec49c8183ebb8da22a6d2ef395eae9c3dffe)
 - Brought back gluon flare in singleplayer. [Patch](https://github.com/FWGS/hlsdk-portable/commit/9d7ab6acf46a8b71ef119d9c252767865522d21d)
